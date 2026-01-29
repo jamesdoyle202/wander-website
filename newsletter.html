@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter | Wander</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <a href="index.html" class="nav-logo">Wander</a>
+        <div class="nav-links">
+            <a href="squad.html">Squad</a>
+            <a href="process.html">Process</a>
+            <a href="world.html">World</a>
+            <a href="newsletter.html" class="active">Newsletter</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Newsletter Page -->
+    <section class="newsletter-page">
+        <!-- Background effects -->
+        <div class="newsletter-bg">
+            <div class="bg-glow glow-1"></div>
+            <div class="bg-glow glow-2"></div>
+            <div class="bg-glow glow-3"></div>
+        </div>
+
+        <!-- Floating art elements -->
+        <div class="newsletter-art">
+            <div class="floating-element el-1 floating" data-speed="0.2">
+                <div class="art-placeholder glow-purple"></div>
+            </div>
+            <div class="floating-element el-2 floating" data-speed="0.4">
+                <div class="art-placeholder glow-blue small"></div>
+            </div>
+            <div class="floating-element el-3 floating" data-speed="0.3">
+                <div class="art-placeholder glow-subtle"></div>
+            </div>
+        </div>
+
+        <div class="newsletter-container">
+            <!-- EDIT: Main heading -->
+            <h1 class="newsletter-title fade-in">Join the Journey</h1>
+            
+            <!-- EDIT: Subheading -->
+            <p class="newsletter-subtitle fade-in delay-1">
+                Be the first to receive updates, exclusive content, 
+                and news from the world of Wander.
+            </p>
+
+            <!-- ============================================
+                 NEWSLETTER FORM
+                 Replace this section with your email provider's 
+                 form code (Mailchimp, Buttondown, ConvertKit, etc.)
+                 ============================================ -->
+            <div class="newsletter-form-container fade-in delay-2">
+                
+                <!-- Placeholder form - replace with your actual form -->
+                <form class="newsletter-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="email" class="visually-hidden">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Enter your email address"
+                            required
+                        >
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Subscribe</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+
+                <!-- EDIT: Privacy note -->
+                <p class="privacy-note">
+                    We respect your privacy. Unsubscribe anytime.
+                </p>
+
+            </div>
+
+            <!-- ============================================
+                 WHAT TO EXPECT - Optional section
+                 ============================================ -->
+            <div class="newsletter-features fade-in delay-3">
+                <h3>What You'll Receive</h3>
+                <div class="features-list">
+                    <!-- EDIT: Feature items -->
+                    <div class="feature-item">
+                        <div class="feature-icon-small"></div>
+                        <span>Development Updates</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-small"></div>
+                        <span>Exclusive Art Reveals</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-small"></div>
+                        <span>Behind-the-Scenes Content</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-small"></div>
+                        <span>Early Access Opportunities</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="footer-logo">Wander</span>
+                <p>A Doyle Games Production</p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="squad.html">Squad</a>
+                <a href="process.html">Process</a>
+                <a href="world.html">World</a>
+                <a href="newsletter.html">Newsletter</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="#" class="social-link" aria-label="Twitter">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Doyle Games. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <style>
+        /* Newsletter Page Specific Styles */
+        .newsletter-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: var(--spacing-xl) var(--spacing-md);
+            padding-top: calc(var(--spacing-xl) + 80px);
+            overflow: hidden;
+        }
+
+        /* Background effects */
+        .newsletter-bg {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+        }
+
+        .bg-glow {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+        }
+
+        .bg-glow.glow-1 {
+            width: 500px;
+            height: 500px;
+            background: var(--color-purple-deep);
+            top: -100px;
+            left: -100px;
+            opacity: 0.6;
+        }
+
+        .bg-glow.glow-2 {
+            width: 400px;
+            height: 400px;
+            background: var(--color-blue-deep);
+            bottom: -100px;
+            right: -100px;
+            opacity: 0.5;
+        }
+
+        .bg-glow.glow-3 {
+            width: 300px;
+            height: 300px;
+            background: var(--color-purple-mid);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.3;
+        }
+
+        /* Floating art */
+        .newsletter-art {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+        }
+
+        .floating-element {
+            position: absolute;
+        }
+
+        .floating-element.el-1 {
+            top: 15%;
+            left: 10%;
+        }
+
+        .floating-element.el-2 {
+            top: 25%;
+            right: 15%;
+        }
+
+        .floating-element.el-3 {
+            bottom: 20%;
+            left: 20%;
+        }
+
+        /* Main content */
+        .newsletter-container {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .newsletter-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: var(--color-text-primary);
+            text-shadow: 0 0 40px var(--color-purple-glow);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .newsletter-subtitle {
+            font-size: 1.1rem;
+            color: var(--color-text-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        /* Form */
+        .newsletter-form-container {
+            background: var(--color-bg-card);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(157, 142, 201, 0.2);
+            border-radius: 12px;
+            padding: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: var(--spacing-sm);
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .form-group {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+
+        .newsletter-form input[type="email"] {
+            width: 100%;
+            padding: var(--spacing-sm) var(--spacing-md);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            color: var(--color-text-primary);
+            background: var(--color-bg-secondary);
+            border: 1px solid rgba(157, 142, 201, 0.2);
+            border-radius: 4px;
+            outline: none;
+            transition: all var(--transition-fast);
+        }
+
+        .newsletter-form input[type="email"]::placeholder {
+            color: var(--color-text-muted);
+        }
+
+        .newsletter-form input[type="email"]:focus {
+            border-color: var(--color-accent);
+            box-shadow: 0 0 20px rgba(157, 142, 201, 0.2);
+        }
+
+        .submit-btn {
+            position: relative;
+            padding: var(--spacing-sm) var(--spacing-lg);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--color-text-primary);
+            background: linear-gradient(135deg, var(--color-purple-mid), var(--color-blue-mid));
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            overflow: hidden;
+            transition: all var(--transition-medium);
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(124, 92, 191, 0.4);
+        }
+
+        .submit-btn span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .submit-btn .btn-glow {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, var(--color-purple-glow), var(--color-blue-glow));
+            opacity: 0;
+            transition: opacity var(--transition-medium);
+        }
+
+        .submit-btn:hover .btn-glow {
+            opacity: 1;
+        }
+
+        .privacy-note {
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+            margin-top: var(--spacing-sm);
+        }
+
+        /* Features */
+        .newsletter-features h3 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--color-text-primary);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-sm);
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            padding: var(--spacing-sm);
+            background: var(--color-bg-card);
+            border: 1px solid rgba(157, 142, 201, 0.1);
+            border-radius: 4px;
+        }
+
+        .feature-icon-small {
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, var(--color-purple-mid), var(--color-blue-mid));
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .feature-item span {
+            font-size: 0.9rem;
+            color: var(--color-text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+            .form-group {
+                min-width: 100%;
+            }
+
+            .submit-btn {
+                width: 100%;
+            }
+
+            .features-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
