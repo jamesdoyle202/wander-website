@@ -1,5 +1,14 @@
 # Push changes to GitHub
 
+**Quick (copy & paste):**
+```bash
+cd /Users/jamesdoyle/wander-website && git add -A && git commit -m "Your message here" && git push
+```
+
+---
+
+**Step by step:**
+
 **1. Open Terminal**
 - Spotlight (Cmd + Space) → type **Terminal** → Enter
 

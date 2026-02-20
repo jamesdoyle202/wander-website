@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Doyle Games</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="index.html" class="nav-logo">Doyle Games</a>
+        <div class="nav-links">
+            <a href="newsletter.html">Newsletter</a>
+            <a href="blog.html" class="active">Blog</a>
+            <a href="process.html">Process</a>
+            <a href="about.html">About</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <main>
+        <header class="page-header">
+            <h1 class="page-title">Blog</h1>
+        </header>
+
+        <section class="blog-bands">
+            <div class="blog-band" data-band="game">
+                <button class="blog-band-header" aria-expanded="false" aria-controls="band-game">
+                    <span class="blog-band-title">Game</span>
+                    <span class="blog-band-icon" aria-hidden="true"></span>
+                </button>
+                <div id="band-game" class="blog-band-content">
+                    <div class="blog-posts"></div>
+                </div>
+            </div>
+
+            <div class="blog-band" data-band="art">
+                <button class="blog-band-header" aria-expanded="false" aria-controls="band-art">
+                    <span class="blog-band-title">Art</span>
+                    <span class="blog-band-icon" aria-hidden="true"></span>
+                </button>
+                <div id="band-art" class="blog-band-content">
+                    <div class="blog-posts"></div>
+                </div>
+            </div>
+
+            <div class="blog-band" data-band="marketing">
+                <button class="blog-band-header" aria-expanded="false" aria-controls="band-marketing">
+                    <span class="blog-band-title">Marketing</span>
+                    <span class="blog-band-icon" aria-hidden="true"></span>
+                </button>
+                <div id="band-marketing" class="blog-band-content">
+                    <div class="blog-posts"></div>
+                </div>
+            </div>
+
+            <div class="blog-band" data-band="story">
+                <button class="blog-band-header" aria-expanded="false" aria-controls="band-story">
+                    <span class="blog-band-title">Story</span>
+                    <span class="blog-band-icon" aria-hidden="true"></span>
+                </button>
+                <div id="band-story" class="blog-band-content">
+                    <div class="blog-posts"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="footer-logo">Doyle Games</span>
+                <p>Updates from the table</p>
+            </div>
+            <div class="footer-links">
+                <a href="newsletter.html">Newsletter</a>
+                <a href="blog.html">Blog</a>
+                <a href="process.html">Process</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Doyle Games</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
