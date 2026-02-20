@@ -362,6 +362,11 @@ body {
     display: block;
 }
 
+.about-photo-block.photo-top .about-photo img,
+.about-photo-block.photo-top .about-photo .img-placeholder {
+    object-position: top center;
+}
+
 .about-caption {
     margin-top: var(--space-sm);
     font-size: 1rem;
