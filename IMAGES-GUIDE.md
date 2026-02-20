@@ -19,8 +19,9 @@ Put all images in the **`images/`** folder. Use these exact filenames, or update
 
 | Filename | Where it appears |
 |----------|------------------|
-| **MomxWill.jpg** | First big photo — with caption below |
+| **JenxWill.jpg** | First big photo — with caption below |
 | **JamesxBen.jpg** | Second big photo — with caption below |
+| **Isaac_garden.jpg** | Third big photo — with caption below |
 
 ---
 
